@@ -6,12 +6,12 @@
 
 .main{
     display: grid;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas:
     "sidebar header"
     "sidebar main";
-    min-height: 100vh;
+    min-height: 150vh;
     gap: 5px;
 }
 
@@ -29,4 +29,26 @@
 
 #main-body{
     grid-area: main;
+    display: grid;
+    grid-template-areas:
+    "projects annon"
+    "projects trendy";
+    grid-template-columns: 2fr 1fr;
+    gap: 6px;
+}
+
+
+#projects{
+    grid-area: projects;
+    background-color: brown;
+}
+
+#annon{
+    grid-area: annon;
+    background-color: brown;
+}
+
+#trendy{
+    grid-area: trendy;
+    background-color: brown;
 }
