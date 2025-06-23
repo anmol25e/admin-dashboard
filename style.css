@@ -34,6 +34,7 @@
     "projects annon"
     "projects trendy";
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 6px;
 }
 
@@ -51,4 +52,78 @@
 #trendy{
     grid-area: trendy;
     background-color: brown;
+}
+
+
+.projectmain{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectheading{
+    height: 90px;
+    background-color: rgb(188, 188, 219);
+    margin-left: 20px;
+    align-content: end;
+}
+
+
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px 300px 300px;
+    margin: 20px;
+}
+
+
+
+.card{
+    background-color: chartreuse;
+}
+
+.announcements{
+    display: flex;
+    flex-direction: column;
+}
+
+.announCards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aqua;
+    align-items: center;
+}
+
+.announCard{
+    background-color: cadetblue;
+    width: 300px;
+    height: 140px;
+}
+.announcement {
+    height: 90px;
+    align-content: end;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+}
+
+.trendyCards{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 60, 88);
+    align-items: center;
+    gap: 10px;
+}
+
+.trendingHeading{
+    height: 90px;
+    align-content: center;
+}
+.trendyCard{
+    background-color: cadetblue;
+    width: 300px;
+    height: 140px;
 }
