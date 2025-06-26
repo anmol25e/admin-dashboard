@@ -127,3 +127,102 @@
     width: 300px;
     height: 140px;
 }
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.upperheader{
+    display: flex;
+    background-color: blue;
+    height: 120px;
+}
+
+
+
+.search{
+    display: flex;
+    background-color: rgb(56, 121, 121);
+    height: 120px;
+    width: 68%;
+}
+.othericons{
+    display: flex;
+    background-color: rgb(129, 19, 19);
+    height: 120px;
+    width: 32%;
+
+}
+.searchIcon{
+    width: 20%;
+    background-color: aqua;
+}
+.searchBar{
+    width: 80%;
+    background-color: rgb(70, 253, 85);
+
+}
+
+.notification{
+    background-color: black;
+    width: 25%;
+}
+
+.smallLogo{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+}
+
+.smallName{
+    background-color: black;
+    width: 45%;
+}
+
+.lowerheader{
+    display: flex;
+    background-color: rgb(36, 36, 83);
+    height: 147px;
+
+}
+
+.leftside{
+    display: flex;
+    background-color: rgb(29, 150, 150);
+    height: 147px;
+    width: 60%;
+
+}
+
+.rightside{
+    display: flex;
+    background-color: rgb(0, 250, 250);
+    height: 147px;
+    width: 40%;
+}
+
+.bigLogo{
+    width: 30%;
+    background-color: rgb(103, 12, 145);
+}
+
+.bigName{
+    width: 70%;
+    background-color: rgb(146, 44, 194);
+}
+
+.new{
+    width: 33%;
+    background-color: rgb(54, 9, 75);
+}
+
+.update{
+    width: 33%;
+    background-color: rgb(111, 18, 155);
+}
+
+.share{
+    width: 34%;
+    background-color: rgb(46, 7, 65);
+}
