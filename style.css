@@ -244,12 +244,22 @@
 
 .homeSection{
     display: flex;
+    flex-direction: column;
     background-color: rgb(137, 137, 241);
     height: 60%;
+
 }
 
 .settingsSection{
     display: flex;
+    flex-direction: column;
     background-color: blue;
     height: 25%;
 }
+
+.homeSectionItems, .settingsSectionItems {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
