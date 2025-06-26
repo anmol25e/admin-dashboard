@@ -21,6 +21,13 @@
 
 #sidebar{
     grid-area: sidebar;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 
 #header{
@@ -225,4 +232,24 @@
 .share{
     width: 34%;
     background-color: rgb(46, 7, 65);
+}
+
+
+
+.dashboard{
+    display: flex;
+    background-color: blue;
+    height: 15%;
+}
+
+.homeSection{
+    display: flex;
+    background-color: rgb(137, 137, 241);
+    height: 60%;
+}
+
+.settingsSection{
+    display: flex;
+    background-color: blue;
+    height: 25%;
 }
