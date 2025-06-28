@@ -240,8 +240,12 @@
     display: flex;
     background-color: blue;
     height: 15%;
+    align-items: center;
+    gap: 10px;
 }
-
+.dashboardIcon{
+    margin-left: 10px;
+}
 .homeSection{
     display: flex;
     flex-direction: column;
@@ -262,4 +266,16 @@
     padding: 10px;
     border: 1px solid black;
     text-align: center;
-  }
+}
+
+
+#home, #profile, #message, #history, #tasks, #communities, #settings, #support, #privacy{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    width: 25px;
+}
+
