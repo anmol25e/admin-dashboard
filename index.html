@@ -97,9 +97,12 @@
         <div id="header" class="main-3">
             <div class="upperheader">
                 <div class="search">
-                    <div class="searchIcon">
-                    </div>
-                    <div class="searchBar"></div>
+                        <form class="search-container" onsubmit="return false;">
+                            <button type="submit" class="search-button">
+                                <img src="images/magnify.svg" class="searchBarIcon"">
+                            </button>
+                            <input type="text" name="q" class="search-input" placeholder="Search...">
+                        </form>
                 </div>
                 <div class="othericons">
                     <div class="notification"></div>
