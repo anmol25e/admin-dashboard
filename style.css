@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -39,7 +50,7 @@
     grid-template-areas:
     "projects annon"
     "projects trendy";
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 0.8fr;
     grid-template-rows: 1fr 1fr;
     gap: 6px;
 }
@@ -68,8 +79,7 @@
 
 .projectheading{
     height: 90px;
-    background-color: rgb(188, 188, 219);
-    margin-left: 20px;
+    margin-left: 50px;
     align-content: end;
 }
 
@@ -79,15 +89,31 @@
     gap: 20px;
     grid-template-columns: 500px 500px;
     grid-template-rows: 300px 300px 300px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 
 
 .card{
-    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: space-between;
 }
 
+.cardIcons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.pName{
+    font-size: 20px;
+    font-weight: bold;
+}
 .announcements{
     display: flex;
     flex-direction: column;
@@ -97,19 +123,22 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: aqua;
-    align-items: center;
+    padding: 0px;
+    background-color: antiquewhite;
+    width: 350px;
+    margin-left: 47px;
+    border-radius: 10px;
 }
 
 .announCard{
-    background-color: cadetblue;
-    width: 300px;
     height: 140px;
+    padding: 15px;
 }
 .announcement {
     height: 90px;
     align-content: end;
     margin-bottom: 20px;
+    margin-left: 47px;
 }
 
 .trending{
@@ -120,21 +149,33 @@
 .trendyCards{
     display: flex;
     flex-direction: column;
-    background-color: rgb(88, 60, 88);
-    align-items: center;
-    gap: 10px;
+    background-color: rgb(134, 30, 134);
+    width: 350px;
+    margin-left: 47px;
+    border-radius: 10px;
 }
 
 .trendingHeading{
-    height: 90px;
+    height: 70px;
     align-content: center;
+    margin-left: 47px;
 }
 .trendyCard{
-    background-color: cadetblue;
-    width: 300px;
-    height: 140px;
+    display: flex;
+    height: 105px;
+    padding: 20px;
+    gap: 5px;
 }
 
+.trendyImage{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.trendyName{
+    padding-top: 10px;
+    height: 50px;
+}
 
 .upperheader{
     display: flex;
@@ -252,7 +293,7 @@
 }
 
 .bigNameText{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
