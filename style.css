@@ -189,8 +189,11 @@
     width: 750px;
     margin-left: 10px;
 }
+
+
 .othericons{
     display: flex;
+    align-items: center;
     background-color: rgb(129, 19, 19);
     height: 120px;
     width: 32%;
@@ -198,17 +201,26 @@
 }
 
 .notification{
-    background-color: black;
+    display: flex;
+    justify-content: flex-end;
     width: 25%;
 }
 
-.smallLogo{
-    background-color: rgb(255, 255, 255);
-    width: 30%;
+.notificationIcon{
+    width: 30px;
 }
 
+.smallLogo{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.smallLogoIcon{
+    width: 50px;
+    border-radius: 50px;
+}
 .smallName{
-    background-color: black;
+    text-align: start;
     width: 45%;
 }
 
